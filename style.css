@@ -6,6 +6,7 @@
 
 body {
   margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 h1,
@@ -87,7 +88,7 @@ p {
   text-decoration: underline;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 576px) {
   p {
     text-align: center;
   }
@@ -98,6 +99,7 @@ p {
 
   h2 {
     font-size: 24px;
+    text-align: center;
   }
 
   h3 {
@@ -116,5 +118,11 @@ p {
   .about-paragraphs p {
     margin: auto 30px;
     font-size: 15px;
+  }
+
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
   }
 }
